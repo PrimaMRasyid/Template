@@ -1,0 +1,9 @@
+body {
+	background-image: url('../pattern/restaurant.png');
+	background-repeat: repeat-xy;
+}
+
+#topMenu{
+	background-image: url('../pattern/diagmonds.png');
+	background-repeat: repeat-xy;
+}
