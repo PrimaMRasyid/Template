@@ -1,9 +1,20 @@
-body {
+body, .navTop {
 	background-image: url('../pattern/restaurant.png');
 	background-repeat: repeat-xy;
 }
 
 #topMenu{
 	background-image: url('../pattern/diagmonds.png');
+	background-repeat: repeat-xy;
+}
+
+
+#menuBar{
+	background-image: url('../pattern/shattered.png');
+	background-repeat: repeat-xy;
+}
+
+#content{
+	background-image: url('../pattern/linedpaper.png');
 	background-repeat: repeat-xy;
 }
