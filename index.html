@@ -47,6 +47,39 @@
   </div>
   </div>
 
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
   <!-- LISTING PRODUCT START -->
   <div class="row">
     <div class="col m12">
@@ -147,12 +180,13 @@
     </div>
   </div>
   <!-- LISTING PRODUCT END -->
+
   <!-- 3 BLOCK START -->
   <div class="row content">
     <div class="container">
       <div class="row">
         <div class="col s12 m4">
-          <div class="card-panel grey lighten-3">
+          <div class="card-panel navTop">
             <div class="row">
               <div class="col s2">
                 <i style="color:#616161" class="material-icons medium circle responsive-img">thumb_up</i> <!-- notice the "circle" class -->
@@ -235,6 +269,7 @@
     <script type="text/javascript">
     $(function(){
       $(".dropdown-button").dropdown();
+      $('.slider').slider({full_width: true});
     });
     </script>
   </body>
